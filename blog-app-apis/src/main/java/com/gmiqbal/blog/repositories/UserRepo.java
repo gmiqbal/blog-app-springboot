@@ -4,6 +4,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.gmiqbal.blog.entities.User;
 
-public interface UserRepo extends JpaRepository<User, String>{
+public interface UserRepo extends JpaRepository<User, Integer>{
 	
 }
